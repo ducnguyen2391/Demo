@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_MH_pinter.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_BH_pinterp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ0SURBVDhPjZLfS1NhGMfPXfh3qDfifxA0mNkqLWHC
@@ -135,7 +135,7 @@
         BMhRuNNzAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btn_MH_NhanBan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_BH_NhanBan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASYAAACrCAMAAAD8Q8FaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAGAUExURcTZEPbp4fHk3Pbp4sXZD/fo4/Xp4/Hk3vXp4SEdYvXq4M7iJR8aWhQKVay5M8fcDJmZ
@@ -245,7 +245,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_MH_ThemMoi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_BH_ThemMoi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFNSURBVDhPpZOxS0JRFMbvvyA4uDg5OQjiIC6ioAiC
@@ -257,7 +257,7 @@
         A/UDjMglgx5kaA8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_MuaHang_Luu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_banHang_Luu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKWSURBVDhPjZJbTxNBGIb7l4AunhJ/hdeGU4FSMICI

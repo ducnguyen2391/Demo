@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Banhang\frmBanhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banhang\frmBanhang.Designer.cs">
+      <DependentUpon>frmBanhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap\frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap\frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="KetNoi.cs" />
     <Compile Include="Khachhang\frmKhachHangAdd.cs">
       <SubType>Form</SubType>
@@ -85,6 +97,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Banhang\frmBanhang.resx">
+      <DependentUpon>frmBanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap\frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Khachhang\frmKhachHangAdd.resx">
       <DependentUpon>frmKhachHangAdd.cs</DependentUpon>
     </EmbeddedResource>

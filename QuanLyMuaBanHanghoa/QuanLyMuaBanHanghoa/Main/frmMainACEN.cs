@@ -21,14 +21,9 @@ namespace QuanLyMuaBanHanghoa
         private void khachHangTSMI_Click(object sender, EventArgs e)
         {
 
-            //frmKhachHangAdd frm = new frmKhachhang.frmKhachHangAdd();
+           Khachhang.US_KhachHangList uS_KhachHangList = new Khachhang.US_KhachHangList();
 
-            //frm.ShowDialog();
-
-
-
-
-           
+            uS_KhachHangList.Show();
 
 
 
@@ -38,6 +33,24 @@ namespace QuanLyMuaBanHanghoa
         private void tabpLamViec_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmACEN_Load(object sender, EventArgs e)
+        {
+            
+            DangNhap.frmDangNhap login = new DangNhap.frmDangNhap();
+            
+            login.ShowDialog();
+
+           
+
+           
+            
+        }
+
+        private void ThoatTSMI_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

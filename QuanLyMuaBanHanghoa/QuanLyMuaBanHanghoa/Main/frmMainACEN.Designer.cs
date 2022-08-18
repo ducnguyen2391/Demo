@@ -47,6 +47,7 @@
             this.TrangthaiStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.tabBanLamViec = new System.Windows.Forms.TabControl();
             this.tabpLamViec = new System.Windows.Forms.TabPage();
+            this.saoLưuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.tabBanLamViec.SuspendLayout();
@@ -59,22 +60,25 @@
             this.ThoatTSMI});
             this.heThongTSMI.Image = ((System.Drawing.Image)(resources.GetObject("heThongTSMI.Image")));
             this.heThongTSMI.Name = "heThongTSMI";
-            this.heThongTSMI.Size = new System.Drawing.Size(105, 26);
+            this.heThongTSMI.Size = new System.Drawing.Size(89, 24);
             this.heThongTSMI.Text = "&Hệ thống";
             // 
             // tuyChonTSMI
             // 
+            this.tuyChonTSMI.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saoLưuToolStripMenuItem});
             this.tuyChonTSMI.Image = ((System.Drawing.Image)(resources.GetObject("tuyChonTSMI.Image")));
             this.tuyChonTSMI.Name = "tuyChonTSMI";
-            this.tuyChonTSMI.Size = new System.Drawing.Size(151, 26);
+            this.tuyChonTSMI.Size = new System.Drawing.Size(184, 26);
             this.tuyChonTSMI.Text = "Tùy chọn";
             // 
             // ThoatTSMI
             // 
             this.ThoatTSMI.Image = ((System.Drawing.Image)(resources.GetObject("ThoatTSMI.Image")));
             this.ThoatTSMI.Name = "ThoatTSMI";
-            this.ThoatTSMI.Size = new System.Drawing.Size(151, 26);
+            this.ThoatTSMI.Size = new System.Drawing.Size(184, 26);
             this.ThoatTSMI.Text = "Thoát";
+            this.ThoatTSMI.Click += new System.EventHandler(this.ThoatTSMI_Click);
             // 
             // ưToolStripMenuItem
             // 
@@ -86,14 +90,14 @@
             this.KhoChonTSMI});
             this.ưToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ưToolStripMenuItem.Image")));
             this.ưToolStripMenuItem.Name = "ưToolStripMenuItem";
-            this.ưToolStripMenuItem.Size = new System.Drawing.Size(110, 26);
+            this.ưToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
             this.ưToolStripMenuItem.Text = "&Danh mục";
             // 
             // khachHangTSMI
             // 
             this.khachHangTSMI.Image = ((System.Drawing.Image)(resources.GetObject("khachHangTSMI.Image")));
             this.khachHangTSMI.Name = "khachHangTSMI";
-            this.khachHangTSMI.Size = new System.Drawing.Size(198, 26);
+            this.khachHangTSMI.Size = new System.Drawing.Size(158, 22);
             this.khachHangTSMI.Text = "Khách hàng";
             this.khachHangTSMI.Click += new System.EventHandler(this.khachHangTSMI_Click);
             // 
@@ -101,28 +105,28 @@
             // 
             this.nhaCungCapTSMI.Image = ((System.Drawing.Image)(resources.GetObject("nhaCungCapTSMI.Image")));
             this.nhaCungCapTSMI.Name = "nhaCungCapTSMI";
-            this.nhaCungCapTSMI.Size = new System.Drawing.Size(198, 26);
+            this.nhaCungCapTSMI.Size = new System.Drawing.Size(158, 22);
             this.nhaCungCapTSMI.Text = "Nhà cung cấp";
             // 
             // nhanVienTSMI
             // 
             this.nhanVienTSMI.Image = ((System.Drawing.Image)(resources.GetObject("nhanVienTSMI.Image")));
             this.nhanVienTSMI.Name = "nhanVienTSMI";
-            this.nhanVienTSMI.Size = new System.Drawing.Size(198, 26);
+            this.nhanVienTSMI.Size = new System.Drawing.Size(158, 22);
             this.nhanVienTSMI.Text = "Nhân viên";
             // 
             // vatTuhangHoaTSMI
             // 
             this.vatTuhangHoaTSMI.Image = ((System.Drawing.Image)(resources.GetObject("vatTuhangHoaTSMI.Image")));
             this.vatTuhangHoaTSMI.Name = "vatTuhangHoaTSMI";
-            this.vatTuhangHoaTSMI.Size = new System.Drawing.Size(198, 26);
+            this.vatTuhangHoaTSMI.Size = new System.Drawing.Size(158, 22);
             this.vatTuhangHoaTSMI.Text = "Vật tư hàng hóa";
             // 
             // KhoChonTSMI
             // 
             this.KhoChonTSMI.Image = ((System.Drawing.Image)(resources.GetObject("KhoChonTSMI.Image")));
             this.KhoChonTSMI.Name = "KhoChonTSMI";
-            this.KhoChonTSMI.Size = new System.Drawing.Size(198, 26);
+            this.KhoChonTSMI.Size = new System.Drawing.Size(158, 22);
             this.KhoChonTSMI.Text = "Kho";
             // 
             // nghiepVuToolStripMenuItem
@@ -132,21 +136,21 @@
             this.InvoicebanHangTSMI});
             this.nghiepVuToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nghiepVuToolStripMenuItem.Image")));
             this.nghiepVuToolStripMenuItem.Name = "nghiepVuToolStripMenuItem";
-            this.nghiepVuToolStripMenuItem.Size = new System.Drawing.Size(111, 26);
+            this.nghiepVuToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
             this.nghiepVuToolStripMenuItem.Text = "&Nghiệp vụ";
             // 
             // InvoicemuaHangTSMI
             // 
             this.InvoicemuaHangTSMI.Image = ((System.Drawing.Image)(resources.GetObject("InvoicemuaHangTSMI.Image")));
             this.InvoicemuaHangTSMI.Name = "InvoicemuaHangTSMI";
-            this.InvoicemuaHangTSMI.Size = new System.Drawing.Size(220, 26);
+            this.InvoicemuaHangTSMI.Size = new System.Drawing.Size(177, 22);
             this.InvoicemuaHangTSMI.Text = "Hóa đơn Mua hàng";
             // 
             // InvoicebanHangTSMI
             // 
             this.InvoicebanHangTSMI.Image = ((System.Drawing.Image)(resources.GetObject("InvoicebanHangTSMI.Image")));
             this.InvoicebanHangTSMI.Name = "InvoicebanHangTSMI";
-            this.InvoicebanHangTSMI.Size = new System.Drawing.Size(220, 26);
+            this.InvoicebanHangTSMI.Size = new System.Drawing.Size(177, 22);
             this.InvoicebanHangTSMI.Text = "Hóa đơn Bán hàng";
             // 
             // troGiupTSMI
@@ -155,7 +159,7 @@
             this.troGiupTSMI.ForeColor = System.Drawing.SystemColors.ControlText;
             this.troGiupTSMI.Image = ((System.Drawing.Image)(resources.GetObject("troGiupTSMI.Image")));
             this.troGiupTSMI.Name = "troGiupTSMI";
-            this.troGiupTSMI.Size = new System.Drawing.Size(98, 26);
+            this.troGiupTSMI.Size = new System.Drawing.Size(82, 24);
             this.troGiupTSMI.Text = "Trợ giúp";
             // 
             // menuStrip1
@@ -168,8 +172,8 @@
             this.troGiupTSMI});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 30);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -178,10 +182,9 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TrangthaiStatusLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 528);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1067, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -189,7 +192,7 @@
             // 
             this.TrangthaiStatusLabel.ActiveLinkColor = System.Drawing.Color.Chartreuse;
             this.TrangthaiStatusLabel.Name = "TrangthaiStatusLabel";
-            this.TrangthaiStatusLabel.Size = new System.Drawing.Size(75, 20);
+            this.TrangthaiStatusLabel.Size = new System.Drawing.Size(59, 17);
             this.TrangthaiStatusLabel.Text = "Trạng thái";
             this.TrangthaiStatusLabel.VisitedLinkColor = System.Drawing.Color.Lime;
             // 
@@ -197,42 +200,48 @@
             // 
             this.tabBanLamViec.Controls.Add(this.tabpLamViec);
             this.tabBanLamViec.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabBanLamViec.Location = new System.Drawing.Point(0, 30);
-            this.tabBanLamViec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabBanLamViec.Location = new System.Drawing.Point(0, 28);
+            this.tabBanLamViec.Margin = new System.Windows.Forms.Padding(2);
             this.tabBanLamViec.Name = "tabBanLamViec";
             this.tabBanLamViec.SelectedIndex = 0;
-            this.tabBanLamViec.Size = new System.Drawing.Size(1067, 498);
+            this.tabBanLamViec.Size = new System.Drawing.Size(800, 400);
             this.tabBanLamViec.TabIndex = 4;
             this.tabBanLamViec.Tag = "";
             // 
             // tabpLamViec
             // 
             this.tabpLamViec.AutoScroll = true;
-            this.tabpLamViec.Location = new System.Drawing.Point(4, 25);
-            this.tabpLamViec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabpLamViec.Location = new System.Drawing.Point(4, 22);
+            this.tabpLamViec.Margin = new System.Windows.Forms.Padding(2);
             this.tabpLamViec.Name = "tabpLamViec";
-            this.tabpLamViec.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabpLamViec.Size = new System.Drawing.Size(1059, 469);
+            this.tabpLamViec.Padding = new System.Windows.Forms.Padding(2);
+            this.tabpLamViec.Size = new System.Drawing.Size(792, 374);
             this.tabpLamViec.TabIndex = 0;
             this.tabpLamViec.Text = "Bàn làm việc";
             this.tabpLamViec.UseVisualStyleBackColor = true;
             this.tabpLamViec.Click += new System.EventHandler(this.tabpLamViec_Click);
             // 
+            // saoLưuToolStripMenuItem
+            // 
+            this.saoLưuToolStripMenuItem.Name = "saoLưuToolStripMenuItem";
+            this.saoLưuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saoLưuToolStripMenuItem.Text = "Sao lưu";
+            // 
             // frmACEN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabBanLamViec);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmACEN";
             this.Text = "ACEN";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmACEN_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
@@ -263,6 +272,7 @@
         private System.Windows.Forms.ToolStripStatusLabel TrangthaiStatusLabel;
         private System.Windows.Forms.TabControl tabBanLamViec;
         private System.Windows.Forms.TabPage tabpLamViec;
+        private System.Windows.Forms.ToolStripMenuItem saoLưuToolStripMenuItem;
     }
 }
 
