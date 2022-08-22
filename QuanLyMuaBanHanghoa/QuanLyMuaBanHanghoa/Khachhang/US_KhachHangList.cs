@@ -22,10 +22,15 @@ namespace QuanLyMuaBanHanghoa.Khachhang
 
         private void USbtnthem_Click(object sender, EventArgs e)
         {
-            //frmKhachHangAdd frmKhachang = new frmKhachhang.frmKhachHangAdd();
+            frmKhachHangAdd frmKhachang = new frmKhachhang.frmKhachHangAdd();
 
-            //frmKhachang.ShowDialog();
+            frmKhachang.ShowDialog();
 
+        }
+
+        private void gridviewListKh_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
         }
     }
 }

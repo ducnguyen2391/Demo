@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbogioitinh = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker_NhanVien = new System.Windows.Forms.DateTimePicker();
+            this.txtDiachiNhanVien = new System.Windows.Forms.TextBox();
+            this.txtHotenNhanvien = new System.Windows.Forms.TextBox();
+            this.txtSdtNhanvien = new System.Windows.Forms.TextBox();
+            this.txtmaNhanvien = new System.Windows.Forms.TextBox();
             this.cbox_frmNV_NCC = new System.Windows.Forms.CheckBox();
             this.cbox_frmNV_laKH = new System.Windows.Forms.CheckBox();
             this.cbox_frmNV_duocsudung = new System.Windows.Forms.CheckBox();
@@ -50,12 +50,12 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.cbogioitinh);
+            this.groupBox1.Controls.Add(this.dateTimePicker_NhanVien);
+            this.groupBox1.Controls.Add(this.txtDiachiNhanVien);
+            this.groupBox1.Controls.Add(this.txtHotenNhanvien);
+            this.groupBox1.Controls.Add(this.txtSdtNhanvien);
+            this.groupBox1.Controls.Add(this.txtmaNhanvien);
             this.groupBox1.Controls.Add(this.cbox_frmNV_NCC);
             this.groupBox1.Controls.Add(this.cbox_frmNV_laKH);
             this.groupBox1.Controls.Add(this.cbox_frmNV_duocsudung);
@@ -66,72 +66,72 @@
             this.groupBox1.Controls.Add(this.label_HoTen);
             this.groupBox1.Controls.Add(this.label_MaNV);
             this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(406, 214);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chung";
             // 
-            // comboBox1
+            // cbogioitinh
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbogioitinh.FormattingEnabled = true;
+            this.cbogioitinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ",
             "Khác"});
-            this.comboBox1.Location = new System.Drawing.Point(301, 94);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(96, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cbogioitinh.Location = new System.Drawing.Point(301, 94);
+            this.cbogioitinh.Margin = new System.Windows.Forms.Padding(2);
+            this.cbogioitinh.Name = "cbogioitinh";
+            this.cbogioitinh.Size = new System.Drawing.Size(96, 21);
+            this.cbogioitinh.TabIndex = 4;
             // 
-            // dateTimePicker1
+            // dateTimePicker_NhanVien
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(97, 94);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(133, 20);
-            this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker_NhanVien.Location = new System.Drawing.Point(97, 94);
+            this.dateTimePicker_NhanVien.Margin = new System.Windows.Forms.Padding(2);
+            this.dateTimePicker_NhanVien.Name = "dateTimePicker_NhanVien";
+            this.dateTimePicker_NhanVien.Size = new System.Drawing.Size(133, 20);
+            this.dateTimePicker_NhanVien.TabIndex = 3;
             // 
-            // textBox3
+            // txtDiachiNhanVien
             // 
-            this.textBox3.Location = new System.Drawing.Point(97, 124);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(301, 20);
-            this.textBox3.TabIndex = 2;
+            this.txtDiachiNhanVien.Location = new System.Drawing.Point(97, 124);
+            this.txtDiachiNhanVien.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDiachiNhanVien.Name = "txtDiachiNhanVien";
+            this.txtDiachiNhanVien.Size = new System.Drawing.Size(301, 20);
+            this.txtDiachiNhanVien.TabIndex = 2;
             // 
-            // textBox2
+            // txtHotenNhanvien
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 66);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(301, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtHotenNhanvien.Location = new System.Drawing.Point(96, 66);
+            this.txtHotenNhanvien.Margin = new System.Windows.Forms.Padding(2);
+            this.txtHotenNhanvien.Name = "txtHotenNhanvien";
+            this.txtHotenNhanvien.Size = new System.Drawing.Size(301, 20);
+            this.txtHotenNhanvien.TabIndex = 2;
             // 
-            // textBox4
+            // txtSdtNhanvien
             // 
-            this.textBox4.Location = new System.Drawing.Point(98, 151);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(209, 20);
-            this.textBox4.TabIndex = 2;
+            this.txtSdtNhanvien.Location = new System.Drawing.Point(98, 151);
+            this.txtSdtNhanvien.Margin = new System.Windows.Forms.Padding(2);
+            this.txtSdtNhanvien.Name = "txtSdtNhanvien";
+            this.txtSdtNhanvien.Size = new System.Drawing.Size(209, 20);
+            this.txtSdtNhanvien.TabIndex = 2;
             // 
-            // textBox1
+            // txtmaNhanvien
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 40);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtmaNhanvien.Location = new System.Drawing.Point(97, 40);
+            this.txtmaNhanvien.Margin = new System.Windows.Forms.Padding(2);
+            this.txtmaNhanvien.Name = "txtmaNhanvien";
+            this.txtmaNhanvien.Size = new System.Drawing.Size(209, 20);
+            this.txtmaNhanvien.TabIndex = 2;
             // 
             // cbox_frmNV_NCC
             // 
             this.cbox_frmNV_NCC.AutoSize = true;
             this.cbox_frmNV_NCC.Location = new System.Drawing.Point(304, 17);
-            this.cbox_frmNV_NCC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbox_frmNV_NCC.Margin = new System.Windows.Forms.Padding(2);
             this.cbox_frmNV_NCC.Name = "cbox_frmNV_NCC";
             this.cbox_frmNV_NCC.Size = new System.Drawing.Size(109, 17);
             this.cbox_frmNV_NCC.TabIndex = 1;
@@ -142,7 +142,7 @@
             // 
             this.cbox_frmNV_laKH.AutoSize = true;
             this.cbox_frmNV_laKH.Location = new System.Drawing.Point(203, 17);
-            this.cbox_frmNV_laKH.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbox_frmNV_laKH.Margin = new System.Windows.Forms.Padding(2);
             this.cbox_frmNV_laKH.Name = "cbox_frmNV_laKH";
             this.cbox_frmNV_laKH.Size = new System.Drawing.Size(99, 17);
             this.cbox_frmNV_laKH.TabIndex = 1;
@@ -153,7 +153,7 @@
             // 
             this.cbox_frmNV_duocsudung.AutoSize = true;
             this.cbox_frmNV_duocsudung.Location = new System.Drawing.Point(4, 184);
-            this.cbox_frmNV_duocsudung.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbox_frmNV_duocsudung.Margin = new System.Windows.Forms.Padding(2);
             this.cbox_frmNV_duocsudung.Name = "cbox_frmNV_duocsudung";
             this.cbox_frmNV_duocsudung.Size = new System.Drawing.Size(93, 17);
             this.cbox_frmNV_duocsudung.TabIndex = 1;
@@ -227,9 +227,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 249);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmNhanVienAdd";
             this.Text = "Thêm mới thông tin nhân viên";
+            this.Load += new System.EventHandler(this.frmNhanVienAdd_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -249,11 +250,11 @@
         private System.Windows.Forms.Label label_HoTen;
         private System.Windows.Forms.Label label_MaNV;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbogioitinh;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_NhanVien;
+        private System.Windows.Forms.TextBox txtDiachiNhanVien;
+        private System.Windows.Forms.TextBox txtHotenNhanvien;
+        private System.Windows.Forms.TextBox txtSdtNhanvien;
+        private System.Windows.Forms.TextBox txtmaNhanvien;
     }
 }

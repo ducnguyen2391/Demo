@@ -120,17 +120,10 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="USbtnXoa.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAIYAACAwQLDQ8NDQ4P/4/3B4kIePpfD4/8Do/8Dg/yCYIGBwgABIAElXZaesvTA4UPLy
-        9FZjcFBgcDxLWqDY/5edsbDY8KC44MDI0ECQMHN6j/D//9vf4/Pz9ZCw0GC4cOXo6xBgANfc4c7R3JCY
-        sMfK1bDg/4eTn6SuuSDAIHCIoMDAwIDYgJejr5CgsH2Hkff4+X2QpFBogFdlc9D/4HB7kQBoAJDYkG+B
-        k/D48ODg4LTL4cvR1xBwEJDIwHCAkGNve+D//zBIYJGhp0BYcLCwwICIkKWywNLa4eD4/wBgAHiHlvb2
-        +PP09SBwEDBAUPX2+JDAsBCwENDY4OD48DCAMNDw0KDgwHCQsElec8DA0KWttODw/4CIoPDw8ICQoNDw
-        /////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
-        AABhACwAAAAAEAAQAAAIwADDCBxIsCDBJUKUEPBBgICCIRAeEHxiAoaKLgPAaMyR5YZEgUYyKGghpYsB
-        jV0uCPgxsAAXL0W8yJTJhUsEJwO5YNTI08CWLQEktBTAkyeSLV86QBjYgAjPGVFsaPhyIIWLgSFG8ERR
-        A4SVLyUi7Bj4okAXHCsSgKHCA0GAIBwINjhSJQFRKE16WGBQkISWKR6SLFiAocIVGgU3cAEzwCdVBDFO
-        GKSg4wsQqhMCYPlgUIQMAKAdOGDAgonB0wUDAgA7
+        R0lGODlhEAAQAIMMAJ4UHf1MYN85SPJGWOY9Tdk1RM0uO9sMA/8LAPSbt3IQDP///////wAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAMACwAAAAAEAAQAAAIZwAZCBxIsCDBBQYZICy4IMHCgQ0f
+        KkwQIMDDhgcUSFxQcQDChgg0GlyAYIDHBCElHkRAgIAAACoZHhBQIOZBlAIQGLA5MeMCBQhgjkzgU6GC
+        A0IhJgAgUuDPohCbRo1pk2fCq1gJBgQAOw==
 </value>
   </data>
   <data name="USbtnSua.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -169,18 +162,6 @@
         A/UDjMglgx5kaA8AAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="ClmaKH.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="CltenKh.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Cldiachi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ClSdt.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="ClmaKH.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

@@ -13,20 +13,21 @@ namespace QuanLyMuaBanHanghoa.DangNhap
     public partial class frmDangNhap : Form
     {
 
-        string tentaikhoan = "admin";
 
-        string matkhau = "admin";
-
+        List<taikhoan> listtaikhoan = Nguoi_dung.DanhSachTaiKhoan.Loadtaikhoan.lsttaikhoan;
+        
 
         bool kiemtradangnhap(string tentaikhoan, string matkhau)
         {
-            if(tentaikhoan == this.tentaikhoan && matkhau == this.matkhau)
+           for(int i =  0; i < listtaikhoan.Count; i++)
             {
-                return true;
-
+                if(tentaikhoan == listtaikhoan[i].Tentaikhoan && matkhau == listtaikhoan[i].Matkhau)
+                {
+                    return true;
+                }    
             }    
             return false;
-        }
+        }  
 
         public frmDangNhap()
         {
@@ -35,7 +36,11 @@ namespace QuanLyMuaBanHanghoa.DangNhap
 
         private void btn_frmDN_Thoat_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
+            
+                Application.Exit();
+            
+            
         }
 
         private void btnDangNhap_Click(object sender, EventArgs e)
@@ -53,23 +58,32 @@ namespace QuanLyMuaBanHanghoa.DangNhap
             {
                 MessageBox.Show("Tên đăng nhập hoặc mật khẩu không hợp lệ. Bạn vui lòng kiểm tra lại");
 
-            }
+                txtTaikhoan.Focus();
 
+                txtTaikhoan.Clear();
+
+                txtMatkhau.Clear();
+                return;
+            }
+            
             
         }
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
 
+          
+
         }
+
+        
+
 
         private void cboxremember_CheckedChanged(object sender, EventArgs e)
         {
             if (cboxremember.Checked == true)
             {
-                txtTaikhoan.Text = tentaikhoan;
-
-                txtMatkhau.Text = matkhau;
+               
               
             }
             

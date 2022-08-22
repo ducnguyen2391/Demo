@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxDangNhap = new System.Windows.Forms.GroupBox();
             this.cboxremember = new System.Windows.Forms.CheckBox();
             this.txtMatkhau = new System.Windows.Forms.TextBox();
             this.txtTaikhoan = new System.Windows.Forms.TextBox();
@@ -37,23 +37,26 @@
             this.btn_frmDN_Thoat = new System.Windows.Forms.Button();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxDangNhap.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBoxDangNhap
             // 
-            this.groupBox1.Controls.Add(this.cboxremember);
-            this.groupBox1.Controls.Add(this.txtMatkhau);
-            this.groupBox1.Controls.Add(this.txtTaikhoan);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btn_frmDN_Thoat);
-            this.groupBox1.Controls.Add(this.btnDangNhap);
-            this.groupBox1.Location = new System.Drawing.Point(48, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(347, 197);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
+            this.groupBoxDangNhap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxDangNhap.Controls.Add(this.cboxremember);
+            this.groupBoxDangNhap.Controls.Add(this.txtMatkhau);
+            this.groupBoxDangNhap.Controls.Add(this.txtTaikhoan);
+            this.groupBoxDangNhap.Controls.Add(this.label2);
+            this.groupBoxDangNhap.Controls.Add(this.label1);
+            this.groupBoxDangNhap.Controls.Add(this.btn_frmDN_Thoat);
+            this.groupBoxDangNhap.Controls.Add(this.btnDangNhap);
+            this.groupBoxDangNhap.Location = new System.Drawing.Point(48, 12);
+            this.groupBoxDangNhap.Name = "groupBoxDangNhap";
+            this.groupBoxDangNhap.Size = new System.Drawing.Size(398, 197);
+            this.groupBoxDangNhap.TabIndex = 0;
+            this.groupBoxDangNhap.TabStop = false;
             // 
             // cboxremember
             // 
@@ -69,7 +72,9 @@
             // txtMatkhau
             // 
             this.txtMatkhau.Location = new System.Drawing.Point(96, 65);
+            this.txtMatkhau.Multiline = true;
             this.txtMatkhau.Name = "txtMatkhau";
+            this.txtMatkhau.PasswordChar = '*';
             this.txtMatkhau.Size = new System.Drawing.Size(208, 20);
             this.txtMatkhau.TabIndex = 2;
             // 
@@ -122,21 +127,22 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 236);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(459, 271);
+            this.Controls.Add(this.groupBoxDangNhap);
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin đăng nhập";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxDangNhap.ResumeLayout(false);
+            this.groupBoxDangNhap.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxDangNhap;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.CheckBox cboxremember;
         private System.Windows.Forms.TextBox txtMatkhau;

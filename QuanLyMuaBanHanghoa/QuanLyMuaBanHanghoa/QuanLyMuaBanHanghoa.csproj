@@ -52,12 +52,19 @@
     <Compile Include="Banhang\frmBanhang.Designer.cs">
       <DependentUpon>frmBanhang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Banhang\US_BanhangList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Banhang\US_BanhangList.Designer.cs">
+      <DependentUpon>US_BanhangList.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap\frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangNhap\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSource.cs" />
     <Compile Include="KetNoi.cs" />
     <Compile Include="Khachhang\frmKhachHangAdd.cs">
       <SubType>Form</SubType>
@@ -71,12 +78,32 @@
     <Compile Include="Khachhang\US_KhachHangList.Designer.cs">
       <DependentUpon>US_KhachHangList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kho\frmKhoAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kho\frmKhoAdd.Designer.cs">
+      <DependentUpon>frmKhoAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kho\US_KHO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Kho\US_KHO.Designer.cs">
+      <DependentUpon>US_KHO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muahang\US_MuahangList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Muahang\US_MuahangList.Designer.cs">
+      <DependentUpon>US_MuahangList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nguoi dung\taikhoan.cs" />
     <Compile Include="Muahang\frmMuaHang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Muahang\frmMuaHang.Designer.cs">
       <DependentUpon>frmMuaHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nguoi dung\DanhSachTaiKhoan.cs" />
     <Compile Include="Nhacungcap\frmNhacungcapAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,16 +116,43 @@
     <Compile Include="Main\frmMainACEN.Designer.cs">
       <DependentUpon>frmMainACEN.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nhacungcap\US_NCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nhacungcap\US_NCC.Designer.cs">
+      <DependentUpon>US_NCC.cs</DependentUpon>
+    </Compile>
     <Compile Include="NhanVien\frmNhanVienAdd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NhanVien\frmNhanVienAdd.Designer.cs">
       <DependentUpon>frmNhanVienAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="NhanVien\US_Nhanvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NhanVien\US_Nhanvien.Designer.cs">
+      <DependentUpon>US_Nhanvien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VTHH\frmVTHH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VTHH\frmVTHH.Designer.cs">
+      <DependentUpon>frmVTHH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VTHH\US_VTHH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VTHH\US_VTHH.Designer.cs">
+      <DependentUpon>US_VTHH.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Banhang\frmBanhang.resx">
       <DependentUpon>frmBanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banhang\US_BanhangList.resx">
+      <DependentUpon>US_BanhangList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
@@ -109,8 +163,17 @@
     <EmbeddedResource Include="Khachhang\US_KhachHangList.resx">
       <DependentUpon>US_KhachHangList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kho\frmKhoAdd.resx">
+      <DependentUpon>frmKhoAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kho\US_KHO.resx">
+      <DependentUpon>US_KHO.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Muahang\frmMuaHang.resx">
       <DependentUpon>frmMuaHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muahang\US_MuahangList.resx">
+      <DependentUpon>US_MuahangList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nhacungcap\frmNhacungcapAdd.resx">
       <DependentUpon>frmNhacungcapAdd.cs</DependentUpon>
@@ -118,8 +181,14 @@
     <EmbeddedResource Include="Main\frmMainACEN.resx">
       <DependentUpon>frmMainACEN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nhacungcap\US_NCC.resx">
+      <DependentUpon>US_NCC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhanVien\frmNhanVienAdd.resx">
       <DependentUpon>frmNhanVienAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien\US_Nhanvien.resx">
+      <DependentUpon>US_Nhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,7 +198,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="VTHH\frmVTHH.resx">
+      <DependentUpon>frmVTHH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VTHH\US_VTHH.resx">
+      <DependentUpon>US_VTHH.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,7 +221,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ImputData\" />
-    <Folder Include="VTHH\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\view.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\delete.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

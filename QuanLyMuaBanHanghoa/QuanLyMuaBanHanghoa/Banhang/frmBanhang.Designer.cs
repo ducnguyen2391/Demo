@@ -39,7 +39,6 @@
             this.txtDiachi_BH = new System.Windows.Forms.TextBox();
             this.txtTenKH_BH = new System.Windows.Forms.TextBox();
             this.txtDiengiai_BH = new System.Windows.Forms.TextBox();
-            this.txtMaKH_BH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,6 +70,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.cboMaKH_BH = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -135,11 +135,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cboMaKH_BH);
             this.groupBox1.Controls.Add(this.cboNV_BH);
             this.groupBox1.Controls.Add(this.txtDiachi_BH);
             this.groupBox1.Controls.Add(this.txtTenKH_BH);
             this.groupBox1.Controls.Add(this.txtDiengiai_BH);
-            this.groupBox1.Controls.Add(this.txtMaKH_BH);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -179,13 +179,6 @@
             this.txtDiengiai_BH.Name = "txtDiengiai_BH";
             this.txtDiengiai_BH.Size = new System.Drawing.Size(367, 20);
             this.txtDiengiai_BH.TabIndex = 1;
-            // 
-            // txtMaKH_BH
-            // 
-            this.txtMaKH_BH.Location = new System.Drawing.Point(106, 26);
-            this.txtMaKH_BH.Name = "txtMaKH_BH";
-            this.txtMaKH_BH.Size = new System.Drawing.Size(124, 20);
-            this.txtMaKH_BH.TabIndex = 1;
             // 
             // label4
             // 
@@ -300,11 +293,12 @@
             this.CLthanhtien,
             this.CLSohoadon,
             this.CLngayhoadon});
-            this.dataGridView_BH.Location = new System.Drawing.Point(12, 222);
+            this.dataGridView_BH.Location = new System.Drawing.Point(12, 229);
             this.dataGridView_BH.Name = "dataGridView_BH";
             this.dataGridView_BH.RowHeadersWidth = 51;
             this.dataGridView_BH.Size = new System.Drawing.Size(888, 211);
             this.dataGridView_BH.TabIndex = 3;
+            this.dataGridView_BH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_BH_CellContentClick);
             // 
             // ClMaHang
             // 
@@ -456,6 +450,14 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Tổng tiền : ";
             // 
+            // cboMaKH_BH
+            // 
+            this.cboMaKH_BH.FormattingEnabled = true;
+            this.cboMaKH_BH.Location = new System.Drawing.Point(106, 24);
+            this.cboMaKH_BH.Name = "cboMaKH_BH";
+            this.cboMaKH_BH.Size = new System.Drawing.Size(121, 21);
+            this.cboMaKH_BH.TabIndex = 3;
+            // 
             // frmBanhang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -470,7 +472,8 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmBanhang";
-            this.Text = "Chứng từ mua hàng";
+            this.Text = "Chứng từ bán hàng";
+            this.Load += new System.EventHandler(this.frmBanhang_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -498,7 +501,6 @@
         private System.Windows.Forms.TextBox txtDiachi_BH;
         private System.Windows.Forms.TextBox txtTenKH_BH;
         private System.Windows.Forms.TextBox txtDiengiai_BH;
-        private System.Windows.Forms.TextBox txtMaKH_BH;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -528,5 +530,6 @@
         private System.Windows.Forms.TextBox txtTienthue_BH;
         private System.Windows.Forms.TextBox txtTongthanhtoan_BH;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cboMaKH_BH;
     }
 }

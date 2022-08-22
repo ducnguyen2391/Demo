@@ -16,5 +16,17 @@ namespace QuanLyMuaBanHanghoa.Muahang
         {
             InitializeComponent();
         }
+
+        private void dataGridView_MH_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            dataGridView_MH.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+        }
+
+        private void frmMuaHang_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

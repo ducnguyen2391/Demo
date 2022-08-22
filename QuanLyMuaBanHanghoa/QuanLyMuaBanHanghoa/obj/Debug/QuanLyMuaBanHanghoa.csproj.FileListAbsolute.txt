@@ -43,3 +43,11 @@ D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHangho
 D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.csproj.CoreCompileInputs.cache
 D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.exe
 D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.pdb
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.Nhacungcap.US_NCC.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.NhanVien.US_Nhanvien.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.VTHH.frmVTHH.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.VTHH.US_VTHH.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.Kho.frmKhoAdd.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.Kho.US_KHO.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.Banhang.US_BanhangList.resources
+D:\Duc\Demo\QuanLyMuaBanHanghoa\QuanLyMuaBanHanghoa\obj\Debug\QuanLyMuaBanHanghoa.Muahang.US_MuahangList.resources

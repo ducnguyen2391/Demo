@@ -39,7 +39,6 @@
             this.txtDiachi_MH = new System.Windows.Forms.TextBox();
             this.txtTenNCC_MH = new System.Windows.Forms.TextBox();
             this.txtDiengiai_MH = new System.Windows.Forms.TextBox();
-            this.txtMaNCC_MH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,6 +70,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.cboTenNCC_MH = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -135,11 +135,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cboTenNCC_MH);
             this.groupBox1.Controls.Add(this.cboNV_MH);
             this.groupBox1.Controls.Add(this.txtDiachi_MH);
             this.groupBox1.Controls.Add(this.txtTenNCC_MH);
             this.groupBox1.Controls.Add(this.txtDiengiai_MH);
-            this.groupBox1.Controls.Add(this.txtMaNCC_MH);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -179,13 +179,6 @@
             this.txtDiengiai_MH.Name = "txtDiengiai_MH";
             this.txtDiengiai_MH.Size = new System.Drawing.Size(367, 20);
             this.txtDiengiai_MH.TabIndex = 1;
-            // 
-            // txtMaNCC_MH
-            // 
-            this.txtMaNCC_MH.Location = new System.Drawing.Point(106, 26);
-            this.txtMaNCC_MH.Name = "txtMaNCC_MH";
-            this.txtMaNCC_MH.Size = new System.Drawing.Size(124, 20);
-            this.txtMaNCC_MH.TabIndex = 1;
             // 
             // label4
             // 
@@ -305,6 +298,7 @@
             this.dataGridView_MH.RowHeadersWidth = 51;
             this.dataGridView_MH.Size = new System.Drawing.Size(888, 211);
             this.dataGridView_MH.TabIndex = 3;
+            this.dataGridView_MH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_MH_CellContentClick);
             // 
             // ClMaHang
             // 
@@ -456,6 +450,14 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Tổng tiền : ";
             // 
+            // cboTenNCC_MH
+            // 
+            this.cboTenNCC_MH.FormattingEnabled = true;
+            this.cboTenNCC_MH.Location = new System.Drawing.Point(106, 24);
+            this.cboTenNCC_MH.Name = "cboTenNCC_MH";
+            this.cboTenNCC_MH.Size = new System.Drawing.Size(121, 21);
+            this.cboTenNCC_MH.TabIndex = 3;
+            // 
             // frmMuaHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -471,6 +473,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMuaHang";
             this.Text = "Chứng từ mua hàng";
+            this.Load += new System.EventHandler(this.frmMuaHang_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -498,7 +501,6 @@
         private System.Windows.Forms.TextBox txtDiachi_MH;
         private System.Windows.Forms.TextBox txtTenNCC_MH;
         private System.Windows.Forms.TextBox txtDiengiai_MH;
-        private System.Windows.Forms.TextBox txtMaNCC_MH;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -528,5 +530,6 @@
         private System.Windows.Forms.TextBox txtTienthue_MH;
         private System.Windows.Forms.TextBox txtTongthanhtoan_MH;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cboTenNCC_MH;
     }
 }
